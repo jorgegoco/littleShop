@@ -13,12 +13,19 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    background-color: antiquewhite;
 }
 
 button,
 select {
     font: inherit;
     padding: 0.25em;
+}
+
+button {
+    cursor: pointer;
+    background-color:rgb(186, 219, 186);
+    border-radius: 5px;
 }
 
 img {
@@ -57,7 +64,6 @@ img {
 }
 
 .header {
-    background-color: #fff;
     position: sticky;
     top: 0;
     z-index: 1;
